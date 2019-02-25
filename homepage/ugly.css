@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+.header {
+  background-image: linear-gradient(red, yellow, green);
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+
+p {
+  color: green;
+}
+
+img {
+    align-content: center;
+    box-shadow: 10px 5px 5px orange;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+.side-bar{
+  height: 40%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  background-color: #FF8C00;
+  overflow-x: hidden; 
+  padding-top: 30px;
+  margin-right: 50px;
+}
+
+
+.side-bar .side-bar-content{
+    color: green;
+    padding-top:10pt;
+}

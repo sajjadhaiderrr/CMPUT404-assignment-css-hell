@@ -1,0 +1,71 @@
+body {
+  background-color: #FAF0E6;
+}
+
+.header {
+  background-color: #2F4F4F;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Arial Black", Gadget, sans-serifl;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+img {
+    align-content: center;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+.side-bar{
+  right: 0
+  bottom: 0
+  position: fixed;
+  display: block;
+  width:15%;
+  height: auto;
+  overflow: hidden;
+  margin-top: -350px;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  float:right;
+  background: #eee;
+
+
+}
+
+
+.side-bar .side-bar-content{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
